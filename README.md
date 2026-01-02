@@ -10,8 +10,7 @@ The architecture includes real-world production data platforms, emphasizing scal
 ## 🏗️ Architecture Overview
 The pipeline follows a layered, cloud-native design:
 
-External API → Azure Blob Storage → Azure Functions → Azure Data Factory → Azure SQL Database → Power BI
-
+![AirSprint Data Architecture](/screenshots/architecture.png)
 This approach ensures reliable ingestion, structured transformations, and fast access to business insights.
 
 ---
@@ -24,6 +23,7 @@ This approach ensures reliable ingestion, structured transformations, and fast a
 - Supplementary datasets such as aircraft details and ownership information are also stored in the same storage account.
 
 **Script:**
+scripts/api_extraction.py
 
 ---
 
@@ -40,7 +40,7 @@ This approach ensures reliable ingestion, structured transformations, and fast a
 - Feature engineering (e.g., flight duration, ownership percentage calculations)
 
 **Script:**
-
+function_app.py
 ---
 
 #### Orchestration with Azure Data Factory
