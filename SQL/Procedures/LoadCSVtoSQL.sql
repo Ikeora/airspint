@@ -10,7 +10,7 @@ BEGIN
 
     SET @SQL = '
     BULK INSERT ' + QUOTENAME(@TableName) + '
-    FROM ''https://airsprintsa.blob.core.windows.net/cleandata/' + @FileName + '''
+    FROM ''https://flight.blob.core.windows.net/cleandata/' + @FileName + '''
     WITH (
         DATA_SOURCE = ''MyBlobStorage'',
         FORMAT = ''CSV'',
