@@ -12,7 +12,7 @@ def extract_api_data():
     api_token = os.getenv("API_TOKEN")
 
     # Base URL for the API
-    base_url = "https://test.fl3xx.com/api/external/flight/"
+    base_url = "https://..."
 
     # Headers for authentication
     headers = {
