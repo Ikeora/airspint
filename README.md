@@ -1,4 +1,4 @@
-# ✈️ AirSprint Flight Data Analytics 
+# ✈️ Flight Data Analytics 
 
 ## 📌 Project Overview
 This project implements an end-to-end cloud-based data engineering and business intelligence pipeline for analyzing flight operations and aircraft ownership data. The solution focuses on automated data ingestion, transformation, storage, and near real-time visualization using modern analytics and cloud technologies.
@@ -10,7 +10,7 @@ The architecture includes real-world production data platforms, emphasizing scal
 ## 🏗️ Architecture Overview
 The pipeline follows a layered, cloud-native design:
 
-![AirSprint Data Architecture](/screenshots/architecture.png)
+![Data Architecture](/screenshots/architecture.png)
 This approach ensures reliable ingestion, structured transformations, and fast access to business insights.
 
 ---
